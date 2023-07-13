@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$app_name = 'I Code Smart | Website';
     $mail_from = 'crescentbeatz31@gmail.com';
 	$mail_to = 'crescent.sambila@gmail.com';
-    $app_password = 'zhgodcvdhajiemer';
+    $app_password = 'secret';
 	//$attachmentPath = '../assets/img/apple-touch-icon.png';
     $name = $_POST['name'];
     $email = $_POST['email'];
