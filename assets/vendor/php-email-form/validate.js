@@ -68,7 +68,7 @@
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
-        throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
+        throw new Error('Oops! Failed to send a message, try again.'); 
       }
     })
     .catch((error) => {
